@@ -4,8 +4,7 @@ permalink: /
 permalink_name: /home
 title: jekyll-shell-theme
 
-detail_image: assets/theme_logo.svg
-
+detail_image: assets/banner.png
 ---
 
 # jekyll-shell-theme

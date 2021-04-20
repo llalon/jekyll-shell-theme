@@ -9,11 +9,11 @@
 
 :root {
   --main-color: white;
-  --bg-color: black;
+  --bg-color: rgba(40, 42, 54, 1);
 
   --text-color: #ddd;
   --pop-color: white;
-  --alt-color: #2ed573;
+  --alt-color: rgba(80, 250, 123, 1);
   --light-alt-color: rgba(46, 213, 115);
 }
 
@@ -198,4 +198,5 @@ div.error_box h1 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border: 2px solid rgba(204, 204, 204, 1) !important;
+  padding: 10px 10px 10px 10px;
 }
