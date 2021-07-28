@@ -94,13 +94,13 @@ html[data-theme="dark"] {
 
 
 :root {
-  --main-color: white;
-  --bg-color: rgba(40, 42, 54, 1);
+  --main-color: var(--foreground-color);
+  --bg-color: var(--background-color);
 
   --text-color: #ddd;
   --pop-color: white;
-  --alt-color: rgba(80, 250, 123, 1);
-  --light-alt-color: rgba(46, 213, 115);
+  --alt-color: var(--green-color);
+  --light-alt-color: var(--cyan-color);
 }
 
 /* BASE */
