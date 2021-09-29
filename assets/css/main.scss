@@ -10,81 +10,97 @@
 
 /* Theme switcher  Adapted from: https://github.com/derekkedziora/jekyll-demo */
 html, html[data-theme="light"] {
-	--link-color: rgb(0, 112, 201);
-  --main-background-color: hsl(0, 0%, 90%);
-  --main-text-color: hsl(0, 0%, 20%);
-
-  --background-color: rgb(40, 42, 54);
-  --current-line-color: rgb(68, 71, 90);
-  --selection-color: rgb(68, 71, 90);
-  --foreground-color: rgb(248,248,242);
-  --comment-color: rgb(98, 114, 165);
-  --cyan-color: rgb(139, 233, 253);
-  --green-color: rgb(80 ,250, 123);
-  --orange-color: rgb(255, 184, 108,);
-  --pink-color: rgb(255, 121, 198);
-  --purple-color: rgb(189, 147, 249);
-  --red-color: rgb(255, 85, 85);
-  --yellow-color: rgb(241, 250, 140);
+  --cursor-color: #F8F8F2;
+  --selection-background-color: #44475A;
+  --background-color: #F9F9F9;
+  --foreground-color: #F8F8F2;
+  --black-color: #000000;
+  --blue-color: #4078F2;
+  --cyan-color: #0184BC;
+  --green-color: #50A14F;
+  --purple-color: #A626A4;
+  --red-color: #E45649;
+  --white-color: #A0A1A7;
+  --yellow-color: #986801;
+  --brightBlack-color: #383A42;
+  --brightBlue-color: #4078F2;
+  --brightCyan-color: #0184BC;
+  --brightGreen-color: #50A14F;
+  --brightPurple-color: #A626A4;
+  --brightRed-color: #E45649;
+  --brightWhite-color: #FFFFFF;
+  --bright-yellow-color: #986801;
 }
 
 html[data-theme="dark"] {
-  --link-color: rgb( 100, 210, 255);
-  --main-background-color: hsl(0, 0%, 20%);
-  --main-text-color: hsl(0, 0%, 85%); 
-
-  --background-color: rgb(40, 42, 54);
-  --current-line-color: rgb(68, 71, 90);
-  --selection-color: rgb(68, 71, 90);
-  --foreground-color: rgb(248,248,242);
-  --comment-color: rgb(98, 114, 165);
-  --cyan-color: rgb(139, 233, 253);
-  --green-color: rgb(80 ,250, 123);
-  --orange-color: rgb(255, 184, 108,);
-  --pink-color: rgb(255, 121, 198);
-  --purple-color: rgb(189, 147, 249);
-  --red-color: rgb(255, 85, 85);
-  --yellow-color: rgb(241, 250, 140);
+  --cursor-color: #F8F8F2;
+  --selection-background-color: #44475A;
+  --background-color: #282A36;
+  --foreground-color: #F8F8F2;
+  --black-color: #21222C;
+  --blue-color: #BD93F9;
+  --cyan-color: #8BE9FD;
+  --green-color: #50FA7B;
+  --purple-color: #FF79C6;
+  --red-color: #FF5555;
+  --white-color: #F8F8F2;
+  --yellow-color: #F1FA8C;
+  --brightBlack-color: #6272A4;
+  --brightBlue-color: #D6ACFF;
+  --brightCyan-color: #A4FFFF;
+  --brightGreen-color: #69FF94;
+  --brightPurple-color: #FF92DF;
+  --brightRed-color: #FF6E6E;
+  --brightWhite-color: #FFFFFF;
+  --bright-yellow-color: #FFFFA5;
 }
 
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     html, html[data-theme="dark"] {
-      --link-color: rgb( 100, 210, 255);
-    	--main-background-color: hsl(0, 0%, 20%);
-    	--main-text-color: hsl(0, 0%, 85%); 
-
-      --background-color: rgb(40, 42, 54);
-      --current-line-color: rgb(68, 71, 90);
-      --selection-color: rgb(68, 71, 90);
-      --foreground-color: rgb(248,248,242);
-      --comment-color: rgb(98, 114, 165);
-      --cyan-color: rgb(139, 233, 253);
-      --green-color: rgb(80 ,250, 123);
-      --orange-color: rgb(255, 184, 108,);
-      --pink-color: rgb(255, 121, 198);
-      --purple-color: rgb(189, 147, 249);
-      --red-color: rgb(255, 85, 85);
-      --yellow-color: rgb(241, 250, 140);
+      --cursor-color: #F8F8F2;
+      --selection-background-color: #44475A;
+      --background-color: #282A36;
+      --foreground-color: #F8F8F2;
+      --black-color: #21222C;
+      --blue-color: #BD93F9;
+      --cyan-color: #8BE9FD;
+      --green-color: #50FA7B;
+      --purple-color: #FF79C6;
+      --red-color: #FF5555;
+      --white-color: #F8F8F2;
+      --yellow-color: #F1FA8C;
+      --brightBlack-color: #6272A4;
+      --brightBlue-color: #D6ACFF;
+      --brightCyan-color: #A4FFFF;
+      --brightGreen-color: #69FF94;
+      --brightPurple-color: #FF92DF;
+      --brightRed-color: #FF6E6E;
+      --brightWhite-color: #FFFFFF;
+      --bright-yellow-color: #FFFFA5;
     }
 
     html[data-theme="light"] {
-		  --link-color: rgb(0, 112, 201);
-    	--main-background-color: hsl(0, 0%, 90%);
-  	 --main-text-color: hsl(0, 0%, 20%);
-
-     --background-color: rgb(40, 42, 54);
-     --current-line-color: rgb(68, 71, 90);
-     --selection-color: rgb(68, 71, 90);
-     --foreground-color: rgb(248,248,242);
-     --comment-color: rgb(98, 114, 165);
-     --cyan-color: rgb(139, 233, 253);
-     --green-color: rgb(80 ,250, 123);
-     --orange-color: rgb(255, 184, 108,);
-     --pink-color: rgb(255, 121, 198);
-     --purple-color: rgb(189, 147, 249);
-     --red-color: rgb(255, 85, 85);
-     --yellow-color: rgb(241, 250, 140);
+      --cursor-color: #F8F8F2;
+      --selection-background-color: #44475A;
+      --background-color: #F9F9F9;
+      --foreground-color: #F8F8F2;
+      --black-color: #000000;
+      --blue-color: #4078F2;
+      --cyan-color: #0184BC;
+      --green-color: #50A14F;
+      --purple-color: #A626A4;
+      --red-color: #E45649;
+      --white-color: #A0A1A7;
+      --yellow-color: #986801;
+      --brightBlack-color: #383A42;
+      --brightBlue-color: #4078F2;
+      --brightCyan-color: #0184BC;
+      --brightGreen-color: #50A14F;
+      --brightPurple-color: #A626A4;
+      --brightRed-color: #E45649;
+      --brightWhite-color: #FFFFFF;
+      --bright-yellow-color: #986801;
   } 
 }
 
@@ -97,8 +113,8 @@ html[data-theme="dark"] {
   --main-color: var(--foreground-color);
   --bg-color: var(--background-color);
 
-  --text-color: #ddd;
-  --pop-color: white;
+  --text-color: var(--white-color);
+  --pop-color: var(--bright-white-color);
   --alt-color: var(--green-color);
   --light-alt-color: var(--cyan-color);
 }

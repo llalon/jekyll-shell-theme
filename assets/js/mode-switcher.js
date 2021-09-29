@@ -1,4 +1,4 @@
-# Adapted from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
+// Adapted from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
 
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
